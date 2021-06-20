@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire avec controle de saisie javascript</title>
+    <link rel="stylesheet" href="formulaire.css">
+</head>
+<body>
+    
+<form action="#" method="POST">
+   <fieldset style="border-radius: 10%;">
+       <legend ><h2>Inscription</h2></legend>
+      
+       
+           <div id="container">
+               <div class="page1">
+                   <label for="name"  >Prénom et Nom* :</label>
+            <input type="text" id="name" name="Prénom et Nom" pattern ='[A-z" "]{6,20}'>
+        </div>
+        <div class="page2">
+            <label for="name"  >CIN* :</label>
+            <input type="text" id="CIN" name="CIN"  required
+            placeholder ="8chiffres collés"
+            pattern = "[0-9]{8}">
+        </div>
+        <div class="page3">
+            <label for="name"  >Adresse mail* :</label>
+            <input type="text" id="mail" name="Adresse mail" placeholder ="un @ suivi d'un point" required
+            pattern ="[A-z0-9._-]+[@]{1}[A-z0-9._-]+[.]{1}[A-z]{2,10}" >
+        </div>
+        <div class="page4">
+            <label for="text">Niveau scolaire :</label>
+            <input type="radio" name="Secondaire" id="Secondaire">
+            <label for="">Secondaire</label>
+            <input type="radio" name="Universitaire" id="Universitaire">
+            <label for="">Universitaire</label>
+            <input type="radio" name="Autre" id="Autre">
+            <label for="">
+                Autre
+            </label>
+            
+              
+            
+        </div>
+        <div class="page5">
+            <label for="">Modules de formation :</label>
+            
+            <select name="" id="">
+                <option value="">HTML5</option>
+                <option value="">CSS3</option>
+                <option value="">Javascript</option>
+                <option value="">Jquery</option>
+
+            </select>
+        </div>
+        <div class="page">
+            <h5>
+                (*) champs obligatoires
+            </h5>
+        </div>
+        <div class="page1">
+             <button type="submit">envoyer</button>
+             <button type="submit">annuler</button>
+        </div>
+       
+        </div>
+           
+           
+
+       
+    </fieldset>
+</form>
+
+   
+    
+</body>
+</html>

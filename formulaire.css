@@ -1,0 +1,24 @@
+body{
+    font-size: large;
+    background-color: #8f860a;
+    display: flex;
+    justify-content: center;
+}
+
+#CIN{
+    margin-top: 20px;
+    margin-left: 83px;
+}
+
+#mail{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+
+}
+.page4{
+    margin-top: 20px;
+}
+.page5{
+    margin-top: 20px;
+}
